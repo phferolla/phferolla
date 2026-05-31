@@ -1,175 +1,130 @@
 <div align="center">
 
-# ⚡ PEDRO FEROLLA
-
-### Backend Developer in Progress | Python • FastAPI • SQL
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=23&duration=2200&pause=700&color=00D9FF&center=true&vCenter=true&width=850&lines=%3E+Inicializando+perfil+developer...;%3E+Python+Developer+em+evolu%C3%A7%C3%A3o;%3E+Criando+APIs%2C+sistemas+e+automa%C3%A7%C3%B5es;%3E+Backend+%7C+FastAPI+%7C+SQL+%7C+Git;%3E+Status%3A+ONLINE+%F0%9F%9F%A2" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,50:0d1117,100:161b22&height=200&section=header&text=Pedro%20Ferolla&fontColor=00d9ff&fontSize=60&fontAlignY=55&animation=fadeIn&stroke=00d9ff&strokeWidth=1&desc=Backend%20Developer%20%7C%20Python%20%E2%80%A2%20FastAPI%20%E2%80%A2%20SQL&descAlignY=80&descSize=16&descColor=8b949e"/>
 
 </div>
-
----
-
-## 🖥️ LIVE DEV TERMINAL
-
-```bash
-pedro@github:~$ whoami
-> Pedro Ferolla
-
-pedro@github:~$ stack --active
-> Python | FastAPI | SQL | Git | GitHub | VS Code
-
-pedro@github:~$ mission
-> Construir soluções reais, APIs bem estruturadas e sistemas úteis.
-
-pedro@github:~$ status
-> ONLINE 🟢 | Learning daily | Building projects
-```
-
----
-
-## 🎮 INTERACTIVE MENU
 
 <div align="center">
 
-<a href="https://github.com/phferolla?tab=repositories">
-  <img src="https://img.shields.io/badge/VER%20REPOSIT%C3%93RIOS-00D9FF?style=for-the-badge&logo=github&logoColor=black" />
-</a>
-
-<a href="https://github.com/phferolla/fastapi-user-management-api">
-  <img src="https://img.shields.io/badge/FASTAPI%20API-00FF88?style=for-the-badge&logo=fastapi&logoColor=black" />
-</a>
-
-<a href="https://github.com/phferolla/bank-account-system-oop">
-  <img src="https://img.shields.io/badge/BANKING%20SYSTEM-FFD43B?style=for-the-badge&logo=python&logoColor=black" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=_%3E+sistemas+que+resolvem+problemas+reais;_%3E+APIs+limpas%2C+c%C3%B3digo+que+faz+sentido;_%3E+backend+developer+em+constru%C3%A7%C3%A3o;_%3E+São+Paulo+%2F%2F+Brazil)](https://git.io/typing-svg)
 
 </div>
 
----
-
-## 📺 PROJECT MONITOR
-
-```txt
-╔════════════════════════════════════════════════════╗
-║              PEDRO FEROLLA DEV PANEL              ║
-╠════════════════════════════════════════════════════╣
-║                                                    ║
-║  ACTIVE PROJECTS                                   ║
-║                                                    ║
-║  [01] FastAPI User Management API                  ║
-║       Status: Building backend foundations         ║
-║       Stack : FastAPI • Python • REST API          ║
-║                                                    ║
-║  [02] Banking System OOP                           ║
-║       Status: Improving logic and clean code       ║
-║       Stack : Python • OOP                         ║
-║                                                    ║
-║  [03] Smart Purchasing System                      ║
-║       Status: Real-world business solution         ║
-║       Stack : Python • Automation • Process        ║
-║                                                    ║
-║  SYSTEM MESSAGE: Building better every day 🚀      ║
-║                                                    ║
-╚════════════════════════════════════════════════════╝
-```
-
----
-
-## 🚀 TECH RADAR
+<br/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,docker,git,github,vscode,html,css,js" />
+```
+╭──────────────────────────────────────────────────────────────╮
+│                                                              │
+│   $ pedro --info                                             │
+│                                                              │
+│   name        → Pedro Ferolla                               │
+│   role        → Backend Developer (em evolução)             │
+│   location    → São Paulo, BR 🇧🇷                           │
+│   studying    → Análise e Des. de Sistemas                  │
+│   focus       → Python · FastAPI · SQL · REST APIs          │
+│   status      → Building · Learning · Shipping  ████░ 80%  │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
+```
 
 </div>
 
 ---
 
-## ⚙️ SKILL DASHBOARD
+## `// stack atual`
 
-```txt
-Python              ███████████░ 90%
-FastAPI             ██████████░░ 85%
-SQL                 █████████░░░ 80%
-Git/GitHub          ████████░░░░ 75%
-HTML/CSS            ███████░░░░░ 70%
-JavaScript          ██████░░░░░░ 60%
-Docker              █████░░░░░░░ 50%
-Backend Logic       █████████░░░ 80%
-Problem Solving     ██████████░░ 85%
-```
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,sqlite,java,git,github,vscode&theme=dark&perline=8" />
+
+<br/><br/>
+
+| Camada | Tecnologia | Nível |
+|--------|-----------|-------|
+| Linguagem principal | Python | `███████████░` 90% |
+| API Framework | FastAPI | `██████████░░` 83% |
+| Banco de dados | SQL / PostgreSQL | `█████████░░░` 78% |
+| OOP | Python & Java | `████████░░░░` 72% |
+| Versionamento | Git + GitHub | `████████░░░░` 75% |
+| Containerização | Docker | `█████░░░░░░░` 48% |
+
+</div>
 
 ---
 
-## 🧩 PROJECT CARDS
+## `// projetos em destaque`
 
 <table>
 <tr>
-<td width="50%">
+<td valign="top" width="50%">
 
-### ⚡ FastAPI User Management API
+### 🔐 FastAPI User Management API
+> Sistema completo de gerenciamento de usuários com autenticação, rotas REST e estrutura escalável.
 
-```txt
-Type: Backend API
-Stack: FastAPI + Python
-Focus: CRUD, routes, API logic
-Status: Active
+```python
+@app.post("/users/", response_model=UserOut)
+def create_user(user: UserCreate, db: Session):
+    return crud.create_user(db=db, user=user)
 ```
 
-<a href="https://github.com/phferolla/fastapi-user-management-api">
-  <img src="https://img.shields.io/badge/OPEN%20PROJECT-00D9FF?style=for-the-badge&logo=github&logoColor=black" />
-</a>
+**Stack:** `FastAPI` `Python` `SQLAlchemy` `REST`
+
+[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=00d9ff&labelColor=161b22)](https://github.com/phferolla/fastapi-user-management-api)
 
 </td>
-<td width="50%">
+<td valign="top" width="50%">
 
-### 💰 Banking System OOP
+### 🏦 Banking System OOP
+> Sistema bancário orientado a objetos com operações de conta, herança e encapsulamento real.
 
-```txt
-Type: Console System
-Stack: Python + OOP
-Focus: Classes, methods, logic
-Status: Improving
+```python
+class ContaCorrente(ContaBancaria):
+    def sacar(self, valor: float) -> None:
+        if valor <= self.saldo:
+            self.saldo -= valor
 ```
 
-<a href="https://github.com/phferolla/bank-account-system-oop">
-  <img src="https://img.shields.io/badge/OPEN%20PROJECT-FFD43B?style=for-the-badge&logo=github&logoColor=black" />
-</a>
+**Stack:** `Python` `OOP` `Classes` `Encapsulamento`
+
+[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=ffd43b&labelColor=161b22)](https://github.com/phferolla/bank-account-system-oop)
 
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td valign="top" width="50%">
 
-### 🛒 Smart Purchasing System
+### 🛒 Garimpo Secreto App
+> Aplicação real com propósito de negócio — automação de processos de compra e cotações.
 
-```txt
-Type: Business System
-Stack: Python + Automation
-Focus: compras, cotações, fornecedores
-Status: In planning
+```bash
+$ python main.py
+> Carregando fornecedores...
+> Gerando cotações...
+> Relatório gerado ✓
 ```
 
-<a href="https://github.com/phferolla?tab=repositories">
-  <img src="https://img.shields.io/badge/VIEW%20REPOS-00FF88?style=for-the-badge&logo=github&logoColor=black" />
-</a>
+**Stack:** `Python` `Automação` `Processo real`
+
+[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=161b22)](https://github.com/phferolla/garimpo-secreto-app)
 
 </td>
-<td width="50%">
+<td valign="top" width="50%">
 
-### 🧠 Learning Lab
+### 📚 Sistema Bancário (Projeto Final)
+> Versão avançada com SQL, transações reais e arquitetura mais robusta. Evolução direta do OOP.
 
-```txt
-Type: Study Repository
-Stack: Python + SQL + Git
-Focus: Backend evolution
-Status: Daily progress
+```sql
+SELECT conta_id, saldo
+FROM contas
+WHERE status = 'ativa'
+ORDER BY saldo DESC;
 ```
 
-<a href="https://github.com/phferolla?tab=repositories">
-  <img src="https://img.shields.io/badge/SEE%20MORE-9D4EDD?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+**Stack:** `Python` `SQL` `Arquitetura` `Lógica`
+
+[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=9d4edd&labelColor=161b22)](https://github.com/phferolla/projeto-sistema-bancario)
 
 </td>
 </tr>
@@ -177,35 +132,75 @@ Status: Daily progress
 
 ---
 
-## 📡 CURRENT SIGNAL
+## `// github stats`
 
-```bash
-> Location: São Paulo, Brazil
-> Role: Assistant Buyer Jr
-> Course: Analysis and Systems Development
-> Goal: Backend Developer
-> Focus: Python, FastAPI, SQL, APIs and automation
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=phferolla&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&ring_color=00d9ff" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phferolla&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=6" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=phferolla&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" />
+
+</div>
+
+---
+
+## `// atividade recente`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=phferolla&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&area_color=00d9ff" />
+
+</div>
+
+---
+
+## `// filosofia de código`
+
+<div align="center">
+
+> *"Código bom não é o que impressiona — é o que funciona, qualquer um entende e é fácil de mudar."*
+
+</div>
+
+```python
+class PedroFerolla:
+
+    def __init__(self):
+        self.nome = "Pedro Ferolla"
+        self.stack = ["Python", "FastAPI", "SQL", "Git"]
+        self.objetivos = ["Backend Dev", "APIs escaláveis", "Problemas reais"]
+        self.status = "em evolução constante 🚀"
+
+    def trabalhar(self) -> str:
+        while True:
+            self.aprender()
+            self.construir()
+            self.melhorar()
+        # nunca para
 ```
 
 ---
 
-## 🧠 ABOUT ME
+## `// conecte-se`
 
-```txt
-Sou estudante de Análise e Desenvolvimento de Sistemas,
-focado em desenvolvimento backend, automação e criação
-de soluções úteis para problemas reais.
+<div align="center">
 
-Atualmente estou evoluindo em Python, FastAPI, SQL,
-Git/GitHub e estruturação de APIs REST.
-```
+[![GitHub](https://img.shields.io/badge/GitHub-phferolla-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/phferolla)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pedro%20Ferolla-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/phferolla)
+
+<br/>
+
+![Visitors](https://komarev.com/ghpvc/?username=phferolla&color=00d9ff&style=for-the-badge&label=VISITAS+AO+PERFIL)
+
+</div>
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=120&section=footer"/>
-
-### ⚡ Building real-world solutions with code.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=100&section=footer&text=feito%20com%20Python%20%2B%20café%20%E2%98%95&fontColor=8b949e&fontSize=14&fontAlignY=65"/>
 
 </div>
