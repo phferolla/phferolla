@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,50:0d1117,100:161b22&height=200&section=header&text=Pedro%20Ferolla&fontColor=00d9ff&fontSize=60&fontAlignY=55&animation=fadeIn&stroke=00d9ff&strokeWidth=1&desc=Backend%20Developer%20%7C%20Python%20%E2%80%A2%20FastAPI%20%E2%80%A2%20SQL&descAlignY=80&descSize=16&descColor=8b949e"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,50:0d1117,100:161b22&height=200&section=header&text=Pedro%20Ferolla&fontColor=00d9ff&fontSize=60&fontAlignY=55&animation=fadeIn&stroke=00d9ff&strokeWidth=1&desc=Python%20Back-End%20Developer%20%7C%20FastAPI%20%E2%80%A2%20SQL%20%E2%80%A2%20REST%20APIs&descAlignY=80&descSize=16&descColor=8b949e"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=_%3E+sistemas+que+resolvem+problemas+reais;_%3E+APIs+limpas%2C+c%C3%B3digo+bque+faz+sentido;_%3E+backend+developer+em+constru%C3%A7%C3%A3o;_%3E+São+Paulo+%2F%2F+Brazil)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=_%3E+Python+%7C+FastAPI+%7C+SQL+%7C+REST+APIs;_%3E+Bootcamp+Santander+2025+%E2%80%94+Back-End+Python+(DIO);_%3E+ADS+4%C2%BA+sem+%E2%80%94+UNIP+%7C+Caieiras%2C+SP+%F0%9F%87%A7%F0%9F%87%B7;_%3E+open+to+work+%F0%9F%9F%A2+%E2%80%94+buscando+1%C2%AA+vaga+em+tech)](https://git.io/typing-svg)
 
 </div>
 
@@ -15,120 +15,116 @@
 <div align="center">
 
 ```
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│   $ pedro --info                                             │
-│                                                              │
-│   name        → Pedro Ferolla                               │
-│   role        → Backend Developer (em evolução)             │
-│   location    → São Paulo, BR 🇧🇷                           │
-│   studying    → Análise e Des. de Sistemas                  │
-│   focus       → Python · FastAPI · SQL · REST APIs          │
-│   status      → Building · Learning · Shipping  ████░ 80%  │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────────╮
+│                                                                  │
+│   $ pedro --info                                                 │
+│                                                                  │
+│   nome        → Pedro Henrique Ferolla Brito                    │
+│   objetivo    → Dev Python Jr · Backend · Analista · Suporte    │
+│   localização → Caieiras, SP 🇧🇷                                │
+│   empresa     → Refrigerantes Convenção (Assistente Compras Jr) │
+│   formação    → ADS – UNIP (4º sem · conclusão Jul/2026)        │
+│   bootcamp    → Santander 2025 – Back-End Python (DIO)          │
+│   cursos      → EVOLOO – Administração / Tecnologia             │
+│   status      → Open to work 🟢                                 │
+│                                                                  │
+╰──────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
 
 ---
 
-## `// stack atual`
+## `// stack`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,sqlite,java,git,github,vscode&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,sqlite,pandas,git,github,docker&theme=dark&perline=8" />
 
 <br/><br/>
 
-| Camada | Tecnologia | Nível |
-|--------|-----------|-------|
-| Linguagem principal | Python | `███████████░` 90% |
-| API Framework | FastAPI | `██████████░░` 83% |
-| Banco de dados | SQL / PostgreSQL | `█████████░░░` 78% |
-| OOP | Python & Java | `████████░░░░` 72% |
-| Versionamento | Git + GitHub | `████████░░░░` 75% |
-| Containerização | Docker | `█████░░░░░░░` 48% |
+| Tecnologia | Nível |
+|-----------|-------|
+| Python | `███████████░` 90% |
+| FastAPI + REST APIs | `██████████░░` 83% |
+| Pydantic | `█████████░░░` 78% |
+| SQL (SQLite · PostgreSQL) | `████████░░░░` 74% |
+| Pandas | `████████░░░░` 70% |
+| Git + GitHub | `████████░░░░` 75% |
+| SAP / ERP | `████████░░░░` 72% |
+| Docker · Pytest | `████░░░░░░░░` 42% |
 
 </div>
 
 ---
 
-## `// projetos em destaque`
+## `// projetos`
 
 <table>
 <tr>
 <td valign="top" width="50%">
 
-### 🔐 FastAPI User Management API
-> Sistema completo de gerenciamento de usuários com autenticação, rotas REST e estrutura escalável.
+### 🏦 API de Sistema Bancário
+> Projeto do **Bootcamp Santander 2025** — simulação completa de banco: cadastro, depósito, saque, extrato e validação com Pydantic.
 
 ```python
-@app.post("/users/", response_model=UserOut)
-def create_user(user: UserCreate, db: Session):
-    return crud.create_user(db=db, user=user)
+@app.post("/conta/depositar")
+def depositar(conta_id: int, valor: float, db: Session):
+    saldo = crud.depositar(db, conta_id, valor)
+    return {"saldo_atual": saldo}
 ```
 
-**Stack:** `FastAPI` `Python` `SQLAlchemy` `REST`
+`FastAPI` `Pydantic` `SQLite` `Estrutura modular`
 
-[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=00d9ff&labelColor=161b22)](https://github.com/phferolla/fastapi-user-management-api)
+[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=00d9ff&labelColor=161b22)](https://github.com/phferolla/api-bancaria)
 
 </td>
 <td valign="top" width="50%">
 
-### 🏦 Banking System OOP
-> Sistema bancário orientado a objetos com operações de conta, herança e encapsulamento real.
+### 👤 API CRUD de Pessoas
+> CRUD completo com FastAPI + Pandas, buscas por múltiplos critérios e testes incluídos.
 
 ```python
-class ContaCorrente(ContaBancaria):
-    def sacar(self, valor: float) -> None:
-        if valor <= self.saldo:
-            self.saldo -= valor
+@app.get("/pessoas/buscar")
+def buscar(nome: str = None, cidade: str = None):
+    return crud.busca_avancada(nome, cidade)
 ```
 
-**Stack:** `Python` `OOP` `Classes` `Encapsulamento`
+`FastAPI` `Pandas` `CRUD` `Testes` `Busca avançada`
 
-[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=ffd43b&labelColor=161b22)](https://github.com/phferolla/bank-account-system-oop)
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-### 🛒 Garimpo Secreto App
-> Aplicação real com propósito de negócio — automação de processos de compra e cotações.
-
-```bash
-$ python main.py
-> Carregando fornecedores...
-> Gerando cotações...
-> Relatório gerado ✓
-```
-
-**Stack:** `Python` `Automação` `Processo real`
-
-[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=00ff88&labelColor=161b22)](https://github.com/phferolla/garimpo-secreto-app)
-
-</td>
-<td valign="top" width="50%">
-
-### 📚 Sistema Bancário (Projeto Final)
-> Versão avançada com SQL, transações reais e arquitetura mais robusta. Evolução direta do OOP.
-
-```sql
-SELECT conta_id, saldo
-FROM contas
-WHERE status = 'ativa'
-ORDER BY saldo DESC;
-```
-
-**Stack:** `Python` `SQL` `Arquitetura` `Lógica`
-
-[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=9d4edd&labelColor=161b22)](https://github.com/phferolla/projeto-sistema-bancario)
+[![Repo](https://img.shields.io/badge/ver%20repositório-0d1117?style=for-the-badge&logo=github&logoColor=ffd43b&labelColor=161b22)](https://github.com/phferolla/api-crud-pessoas)
 
 </td>
 </tr>
 </table>
+
+---
+
+## `// experiência profissional`
+
+```txt
+╔══════════════════════════════════════════════════════════════════╗
+║  Refrigerantes Convenção                                        ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  Assistente de Compras Jr         Mai/2026 – Atual              ║
+║  → Suporte ao processo de compras e acompanhamento              ║
+║  → Análise de dados e interface com fornecedores                ║
+║  → SAP + Excel para controle de processos                       ║
+║                                                                  ║
+║  Assistente Administrativo / PCM  Fev/2025 – Mai/2026           ║
+║  → Controle de Ordens de Manutenção (OS)                        ║
+║  → Análise de KPIs e relatórios gerenciais                      ║
+║  → Padronização e organização de processos                      ║
+║                                                                  ║
+║  Operador de Máquina I            Dez/2023 – Fev/2025           ║
+║  → Monitoramento de processos produtivos                        ║
+║  → Ajustes técnicos e resolução de problemas                    ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+> **Diferencial:** vivência real com SAP, KPIs, processos e fornecedores — visão de negócio que a maioria dos devs júnior não tem.
 
 ---
 
@@ -147,7 +143,7 @@ ORDER BY saldo DESC;
 
 ---
 
-## `// atividade recente`
+## `// atividade`
 
 <div align="center">
 
@@ -157,39 +153,44 @@ ORDER BY saldo DESC;
 
 ---
 
-## `// filosofia de código`
-
-<div align="center">
-
-> *"Código bom não é o que impressiona — é o que funciona, qualquer um entende e é fácil de mudar."*
-
-</div>
+## `// sobre mim em código`
 
 ```python
-class PedroFerolla:
+class PedroHenriqueFerolla:
 
     def __init__(self):
-        self.nome = "Pedro Ferolla"
-        self.stack = ["Python", "FastAPI", "SQL", "Git"]
-        self.objetivos = ["Backend Dev", "APIs escaláveis", "Problemas reais"]
-        self.status = "em evolução constante 🚀"
+        self.nome      = "Pedro Henrique Ferolla Brito"
+        self.objetivo  = ["Dev Python Jr", "Backend Developer",
+                          "Analista de Sistemas Jr", "Suporte Técnico"]
+        self.stack     = ["Python", "FastAPI", "Pydantic", "SQL", "Git"]
+        self.formação  = [
+            "ADS – UNIP (4º sem, conclusão Jul/2026)",
+            "Bootcamp Santander 2025 – Back-End Python (DIO)",
+            "EVOLOO – Administração / Tecnologia",
+        ]
+        self.diferencial = [
+            "SAP Business One na prática",
+            "KPIs, processos e visão de negócio",
+            "transição planejada: ops → tech 🚀",
+        ]
 
-    def trabalhar(self) -> str:
-        while True:
+    def trabalhar(self):
+        while not self.contratado:
             self.aprender()
             self.construir()
             self.melhorar()
-        # nunca para
 ```
 
 ---
 
-## `// conecte-se`
+## `// contato`
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-phferolla-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/phferolla)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pedro%20Ferolla-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/phferolla)
+[![Email](https://img.shields.io/badge/pedrohenriqueferolla@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=ea4335&labelColor=161b22)](mailto:pedrohenriqueferolla@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/pedro--ferolla-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pedro-ferolla-5667b0229)
+[![GitHub](https://img.shields.io/badge/phferolla-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)](https://github.com/phferolla)
+[![Telefone](https://img.shields.io/badge/(11)%2096659--3289-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511966593289)
 
 <br/>
 
@@ -201,6 +202,6 @@ class PedroFerolla:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=100&section=footer&text=feito%20com%20Python%20%2B%20café%20%E2%98%95&fontColor=8b949e&fontSize=14&fontAlignY=65"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=100&section=footer&text=feito%20com%20Python%20%2B%20café%20%E2%98%95%20%7C%20Caieiras%2C%20SP&fontColor=8b949e&fontSize=13&fontAlignY=65"/>
 
 </div>
